@@ -55,6 +55,8 @@ public class EjerciciosActividad1 {
         persona1.mostrarDatos();
 
 
+
+
         // --- Tipos de datos primitivos ---       
         // TODO: Implementación en main
         byte num2 = 10;
@@ -74,8 +76,32 @@ public class EjerciciosActividad1 {
         // --- Operadores aritméticos ---       
         // TODO: Implementación en main
 
+        int entero1 = 10;
+        int entero2 = 20;
+
+        int suma2 = entero1 + entero2;
+        int resta = entero2 - entero1;
+        int multiplicacion = entero1 * entero2;
+        int division1 = entero2/entero1;
+        int modulo = entero1 % entero2;
+
+        double division2 = entero1/entero2;
+
+        System.out.println("Entre los dos enteros la suma es " + suma2 + ", la resta es " + resta + ", la multiplicacion es " + multiplicacion + "La división que da como resultado un entero es " + division1 + ", el módulo es " + modulo + ". Por último, la división que da un decimal es " + division2);
+
+
         // --- Operadores de asignación ---       
         // TODO: Implementación en main
+
+        int x = 10;
+
+        x += 5;  // ahora x = 15
+        x -= 3;  // ahora x = 12
+        x *= 2;  // ahora x = 24
+        x /= 4;  // ahora x = 6
+        x %= 5;  // ahora x = 1
+
+        System.out.println("Valor final de x: " + x);
 
         // --- Operadores de comparación ---       
         // TODO: Implementación en main
