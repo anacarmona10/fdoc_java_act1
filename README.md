@@ -1,3 +1,8 @@
+# Info aprendiz:
+Ana Maria urrego Carmona
+T.I: 1018242771
+ficha: 3144585
+
 # Actividad 1: Ejercicios prácticos de Java
 
 Nota de implementación: realice cada ejercicio exclusivamente en el método main de una clase Java dentro de un proyecto de consola.
