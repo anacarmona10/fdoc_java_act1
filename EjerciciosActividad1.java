@@ -15,15 +15,11 @@ public class EjerciciosActividad1 {
         System.out.println(texto);
    
         
-        int suma = num1 + num4;
+        int suma = num1 + num1;
 
         System.out.println("La suma da " + suma);
 
-        if (booleano) {
-            System.out.println("El booleano en este momento es true");
-        } else {
-            System.out.println("En este momento el booleano es false");
-        }
+        
 
         String texto2 = "Hands off Gabriela";
         System.out.println(texto2);
@@ -69,6 +65,12 @@ public class EjerciciosActividad1 {
         char uno = 1;
 
         System.out.println("El byte " + num2 + " El short " + num3 + " El int " + num4 + " El long " + num5 + " El float " + num6 + "El double " + num7 + " El boolean " + booleano + " El char " + uno);
+        
+        if (booleano) {
+            System.out.println("El booleano en este momento es true");
+        } else {
+            System.out.println("En este momento el booleano es false");
+        }
 
         // --- Tipos de datos no primitivos ---       
         // TODO: Implementación en main
@@ -99,12 +101,49 @@ public class EjerciciosActividad1 {
         x -= 3;  // ahora x = 12
         x *= 2;  // ahora x = 24
         x /= 4;  // ahora x = 6
-        x %= 5;  // ahora x = 1
+        x %= 5;  // ahora x = 1. Este operador hace la operación 6/5 y le asigna el residuo a la variable.
 
         System.out.println("Valor final de x: " + x);
 
+        int y = 24;
+        y %= 2;
+
+        System.out.println("El resultado final de y es " + y + " , esto debido a que agarra el valor original de y (en este caso 24) y le hace el módulo 2, que demuestra que es par dando este resultado como residuo de la división 24/2");
+
         // --- Operadores de comparación ---       
         // TODO: Implementación en main
+
+        int comparado1 = 1;
+        int comparado2 = 2;
+
+        boolean comparacion1 = comparado1 == comparado2;
+        boolean comparacion2 = comparado1 != comparado2;
+
+        System.out.println("Los comparados son iguales? " + comparacion1);
+        System.out.println("Entonces son diferentes? " + comparacion2);
+
+        boolean comparacion3 = comparado1 > comparado2;
+        boolean comparacion4 = comparado1 < comparado2;
+
+        System.out.println("Entonces el comparado uno es mayor que el dos? " + comparacion3);
+        System.out.println("O es menor que el comparado dos? " + comparacion4);
+
+        boolean comparacion5 = comparado1 >= comparado2;
+        boolean comparacion6 = comparado1 <= comparado2;
+
+        System.out.println("Intentémoslo con mayor igual, el comparado uno es mayor igual que el 2? " + comparacion5);
+        System.out.println("O es menor igual? " + comparacion6);
+
+        System.out.println("Ahora vamos a ver si la persona de la cual la edad está guardada en una variable es mayor de edad o no");
+
+        int edad = 18;
+
+        if (edad>=18) {
+            System.out.println("Efectivamente es mayor de edad");
+        } else {
+            System.out.println("No de hecho no es mayor de edad");
+        };
+
 
         // --- Operadores lógicos ---       
         // TODO: Implementación en main
